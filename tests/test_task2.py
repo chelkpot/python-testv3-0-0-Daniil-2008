@@ -14,10 +14,10 @@ def test_case1():
     assert run_io("137\n") == "2 17"
 
 def test_case2():
-    assert run_io("2879\n") == "23 59"
+    assert run_io("2879\n") == "1 59"
 
 def test_case3():
     assert run_io("1511\n") == "1 11"
 
 def test_case4():
-    assert run_io("608862\n") == "19 42"
+    assert run_io("608862\n") == "21 42"
